@@ -169,14 +169,14 @@ function draw() {
 
 function leftBounce(){
   print("left bounce", speed)
-        speed = lerp(speed, maxspeed, 0.04);
+        speed = lerp(speed, maxspeed, 0.05);
         _x = speed;
         PongLeft.play();
 }
 
 function rightBounce(){
   print("right bounce", speed)
-        speed = lerp(speed, maxspeed, 0.04);
+        speed = lerp(speed, maxspeed, 0.05);
         _x = speed*-1;
         PongRight.play();
 }
